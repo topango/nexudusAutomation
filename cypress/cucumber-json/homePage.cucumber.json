@@ -1,0 +1,73 @@
+[
+  {
+    "description": "        As a user\n        i want to be able to validate the homepage functionality",
+    "keyword": "Feature",
+    "name": "Test the add and delete product functionality",
+    "line": 1,
+    "id": "test-the-add-and-delete-product-functionality",
+    "tags": [],
+    "uri": "homePage.feature",
+    "elements": [
+      {
+        "id": "test-the-add-and-delete-product-functionality;verify-user-can-add-and-delete-a-product-from-the-product-list",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify user can add and delete a product from the product list",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigate to the loginpage",
+            "result": {
+              "status": "passed",
+              "duration": 5347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 3088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user add a product to the product list",
+            "result": {
+              "status": "passed",
+              "duration": 14979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user search the newly created product is the first result on the list",
+            "result": {
+              "status": "passed",
+              "duration": 2752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user is able to delete product from the product list",
+            "result": {
+              "status": "passed",
+              "duration": 1600000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

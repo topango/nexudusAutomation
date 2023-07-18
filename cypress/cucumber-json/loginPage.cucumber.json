@@ -1,0 +1,93 @@
+[
+  {
+    "description": "        As a user\n        i want to validate the login functionality",
+    "keyword": "Feature",
+    "name": "Test the login page functionality",
+    "line": 1,
+    "id": "test-the-login-page-functionality",
+    "tags": [],
+    "uri": "loginPage.feature",
+    "elements": [
+      {
+        "id": "test-the-login-page-functionality;verify-user-cannot-login-with-invalid-details",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify user cannot login with invalid details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigate to the loginpage",
+            "result": {
+              "status": "passed",
+              "duration": 3535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user submit an invalid login details",
+            "result": {
+              "status": "passed",
+              "duration": 827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user is not able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 721000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-login-page-functionality;verify-user-can-login-with-valid-details",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify user can login with valid details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigate to the loginpage",
+            "result": {
+              "status": "passed",
+              "duration": 1983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user submit a valid login details",
+            "result": {
+              "status": "passed",
+              "duration": 1277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user is able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1215000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
