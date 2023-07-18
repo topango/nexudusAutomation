@@ -23,7 +23,7 @@
             "name": "user navigate to the loginpage",
             "result": {
               "status": "passed",
-              "duration": 5347000000
+              "duration": 4033000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "user login successfully",
             "result": {
               "status": "passed",
-              "duration": 3088000000
+              "duration": 2926000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "user add a product to the product list",
             "result": {
               "status": "passed",
-              "duration": 14979000000
+              "duration": 13775000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "user search the newly created product is the first result on the list",
             "result": {
               "status": "passed",
-              "duration": 2752000000
+              "duration": 3144000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "user is able to delete product from the product list",
             "result": {
               "status": "passed",
-              "duration": 1600000000
+              "duration": 1826000000
             }
           }
         ]

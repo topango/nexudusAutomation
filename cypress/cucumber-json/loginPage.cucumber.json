@@ -23,7 +23,7 @@
             "name": "user navigate to the loginpage",
             "result": {
               "status": "passed",
-              "duration": 3535000000
+              "duration": 4044000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "user submit an invalid login details",
             "result": {
               "status": "passed",
-              "duration": 827000000
+              "duration": 816000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "user is not able to login successfully",
             "result": {
               "status": "passed",
-              "duration": 721000000
+              "duration": 267000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "user navigate to the loginpage",
             "result": {
               "status": "passed",
-              "duration": 1983000000
+              "duration": 2659000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "user submit a valid login details",
             "result": {
               "status": "passed",
-              "duration": 1277000000
+              "duration": 1349000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "user is able to login successfully",
             "result": {
               "status": "passed",
-              "duration": 1215000000
+              "duration": 964000000
             }
           }
         ]
